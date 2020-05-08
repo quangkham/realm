@@ -1,0 +1,6 @@
+framework module Pods_realm_Dog_realm_DogUITests {
+  umbrella header "Pods-realm_Dog-realm_DogUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

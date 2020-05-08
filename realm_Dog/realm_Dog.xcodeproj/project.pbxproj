@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D8C2DFDF3EACA770F481AED /* Pods_realm_Dog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5452B77A1D02F6E947BD46F /* Pods_realm_Dog.framework */; };
+		40EF9C5092FBFF424B8482EB /* Pods_realm_DogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7914DECBCB55A6E359EE61C2 /* Pods_realm_DogTests.framework */; };
 		ADA8E90E24655C2500F52FF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8E90D24655C2500F52FF6 /* AppDelegate.swift */; };
 		ADA8E91024655C2500F52FF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8E90F24655C2500F52FF6 /* SceneDelegate.swift */; };
 		ADA8E91224655C2500F52FF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8E91124655C2500F52FF6 /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		ADA8E91A24655C2700F52FF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA8E91824655C2700F52FF6 /* LaunchScreen.storyboard */; };
 		ADA8E92524655C2700F52FF6 /* realm_DogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8E92424655C2700F52FF6 /* realm_DogTests.swift */; };
 		ADA8E93024655C2800F52FF6 /* realm_DogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8E92F24655C2800F52FF6 /* realm_DogUITests.swift */; };
+		C6BCA7E721A809DC55E99219 /* Pods_realm_Dog_realm_DogUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD15B7B6E69809A1ECA19592 /* Pods_realm_Dog_realm_DogUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19A5E96ACC3DA41A83F52D70 /* Pods-realm_Dog-realm_DogUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realm_Dog-realm_DogUITests.release.xcconfig"; path = "Target Support Files/Pods-realm_Dog-realm_DogUITests/Pods-realm_Dog-realm_DogUITests.release.xcconfig"; sourceTree = "<group>"; };
+		27E3504AC80DB29BCD5F2096 /* Pods-realm_DogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realm_DogTests.release.xcconfig"; path = "Target Support Files/Pods-realm_DogTests/Pods-realm_DogTests.release.xcconfig"; sourceTree = "<group>"; };
+		3A32EEDE1EE037C0CC239DF9 /* Pods-realm_Dog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realm_Dog.debug.xcconfig"; path = "Target Support Files/Pods-realm_Dog/Pods-realm_Dog.debug.xcconfig"; sourceTree = "<group>"; };
+		61DE7403687BAB24F2535423 /* Pods-realm_DogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realm_DogTests.debug.xcconfig"; path = "Target Support Files/Pods-realm_DogTests/Pods-realm_DogTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7914DECBCB55A6E359EE61C2 /* Pods_realm_DogTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_realm_DogTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD15B7B6E69809A1ECA19592 /* Pods_realm_Dog_realm_DogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_realm_Dog_realm_DogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA8E90A24655C2500F52FF6 /* realm_Dog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = realm_Dog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA8E90D24655C2500F52FF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADA8E90F24655C2500F52FF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		ADA8E92B24655C2800F52FF6 /* realm_DogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = realm_DogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA8E92F24655C2800F52FF6 /* realm_DogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = realm_DogUITests.swift; sourceTree = "<group>"; };
 		ADA8E93124655C2800F52FF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C02BEF62DF1351C30D653618 /* Pods-realm_Dog-realm_DogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realm_Dog-realm_DogUITests.debug.xcconfig"; path = "Target Support Files/Pods-realm_Dog-realm_DogUITests/Pods-realm_Dog-realm_DogUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2FFDF4C3C2228FF09C2E6FE /* Pods-realm_Dog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-realm_Dog.release.xcconfig"; path = "Target Support Files/Pods-realm_Dog/Pods-realm_Dog.release.xcconfig"; sourceTree = "<group>"; };
+		E5452B77A1D02F6E947BD46F /* Pods_realm_Dog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_realm_Dog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D8C2DFDF3EACA770F481AED /* Pods_realm_Dog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40EF9C5092FBFF424B8482EB /* Pods_realm_DogTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6BCA7E721A809DC55E99219 /* Pods_realm_Dog_realm_DogUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DE95AE9FA834944448BA8B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5452B77A1D02F6E947BD46F /* Pods_realm_Dog.framework */,
+				AD15B7B6E69809A1ECA19592 /* Pods_realm_Dog_realm_DogUITests.framework */,
+				7914DECBCB55A6E359EE61C2 /* Pods_realm_DogTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D7C9ABC2AB1EF19B254C93C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A32EEDE1EE037C0CC239DF9 /* Pods-realm_Dog.debug.xcconfig */,
+				C2FFDF4C3C2228FF09C2E6FE /* Pods-realm_Dog.release.xcconfig */,
+				C02BEF62DF1351C30D653618 /* Pods-realm_Dog-realm_DogUITests.debug.xcconfig */,
+				19A5E96ACC3DA41A83F52D70 /* Pods-realm_Dog-realm_DogUITests.release.xcconfig */,
+				61DE7403687BAB24F2535423 /* Pods-realm_DogTests.debug.xcconfig */,
+				27E3504AC80DB29BCD5F2096 /* Pods-realm_DogTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		ADA8E90124655C2500F52FF6 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				ADA8E92324655C2700F52FF6 /* realm_DogTests */,
 				ADA8E92E24655C2800F52FF6 /* realm_DogUITests */,
 				ADA8E90B24655C2500F52FF6 /* Products */,
+				5D7C9ABC2AB1EF19B254C93C /* Pods */,
+				2DE95AE9FA834944448BA8B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADA8E93424655C2800F52FF6 /* Build configuration list for PBXNativeTarget "realm_Dog" */;
 			buildPhases = (
+				6E22B7D710746A7FFAADACD1 /* [CP] Check Pods Manifest.lock */,
 				ADA8E90624655C2500F52FF6 /* Sources */,
 				ADA8E90724655C2500F52FF6 /* Frameworks */,
 				ADA8E90824655C2500F52FF6 /* Resources */,
+				97C8548E0321A6A0FD763ECE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADA8E93724655C2800F52FF6 /* Build configuration list for PBXNativeTarget "realm_DogTests" */;
 			buildPhases = (
+				881FB04B75295E1DBDC2BD71 /* [CP] Check Pods Manifest.lock */,
 				ADA8E91C24655C2700F52FF6 /* Sources */,
 				ADA8E91D24655C2700F52FF6 /* Frameworks */,
 				ADA8E91E24655C2700F52FF6 /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADA8E93A24655C2800F52FF6 /* Build configuration list for PBXNativeTarget "realm_DogUITests" */;
 			buildPhases = (
+				560402649F9A5CFBA6AE9D10 /* [CP] Check Pods Manifest.lock */,
 				ADA8E92724655C2700F52FF6 /* Sources */,
 				ADA8E92824655C2700F52FF6 /* Frameworks */,
 				ADA8E92924655C2700F52FF6 /* Resources */,
+				BF78CFBDC0E57E291A55B2E5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +299,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		560402649F9A5CFBA6AE9D10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-realm_Dog-realm_DogUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E22B7D710746A7FFAADACD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-realm_Dog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		881FB04B75295E1DBDC2BD71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-realm_DogTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97C8548E0321A6A0FD763ECE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-realm_Dog/Pods-realm_Dog-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-realm_Dog/Pods-realm_Dog-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-realm_Dog/Pods-realm_Dog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF78CFBDC0E57E291A55B2E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-realm_Dog-realm_DogUITests/Pods-realm_Dog-realm_DogUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-realm_Dog-realm_DogUITests/Pods-realm_Dog-realm_DogUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-realm_Dog-realm_DogUITests/Pods-realm_Dog-realm_DogUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ADA8E90624655C2500F52FF6 /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		ADA8E93524655C2800F52FF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A32EEDE1EE037C0CC239DF9 /* Pods-realm_Dog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +599,7 @@
 		};
 		ADA8E93624655C2800F52FF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2FFDF4C3C2228FF09C2E6FE /* Pods-realm_Dog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +617,7 @@
 		};
 		ADA8E93824655C2800F52FF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61DE7403687BAB24F2535423 /* Pods-realm_DogTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +639,7 @@
 		};
 		ADA8E93924655C2800F52FF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27E3504AC80DB29BCD5F2096 /* Pods-realm_DogTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +661,7 @@
 		};
 		ADA8E93B24655C2800F52FF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C02BEF62DF1351C30D653618 /* Pods-realm_Dog-realm_DogUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +681,7 @@
 		};
 		ADA8E93C24655C2800F52FF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19A5E96ACC3DA41A83F52D70 /* Pods-realm_Dog-realm_DogUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
